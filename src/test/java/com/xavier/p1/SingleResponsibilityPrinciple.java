@@ -1,18 +1,16 @@
 package com.xavier.p1;
 
 
+import com.xavier.MainTestCase;
 import com.xavier.principle.p1.Phone;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 
 /**
  * 单一职责原则实例测试
  *
  * @author NewGr8Player
  */
-@RunWith(JUnit4.class)
-public class SingleResponsibilityPrinciple {
+public class SingleResponsibilityPrinciple extends MainTestCase {
 
     @Test
     public void test() {
