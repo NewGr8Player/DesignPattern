@@ -1,4 +1,4 @@
-package com.xavier.p5;
+package com.xavier.principle.p5;
 
 import com.xavier.MainTestCase;
 import com.xavier.principle.p5.Butler;

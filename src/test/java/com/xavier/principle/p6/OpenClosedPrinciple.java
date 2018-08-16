@@ -1,4 +1,4 @@
-package com.xavier.p6;
+package com.xavier.principle.p6;
 
 import com.xavier.MainTestCase;
 import com.xavier.principle.p6.DiscountItem;

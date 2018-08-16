@@ -1,4 +1,4 @@
-package com.xavier.p1;
+package com.xavier.principle.p1;
 
 
 import com.xavier.MainTestCase;

@@ -1,5 +1,5 @@
 /**
- * 这个包内主要是六大基本原则的实践代码
+ * 这个包内主要是六大设计原则的实践代码
  * <ol>
  * <li>单一职责原则(Single Responsibility Principle,SRP)</li>
  * <li>里氏替换原则(Liskov Substitution Principle,LSP)</li>

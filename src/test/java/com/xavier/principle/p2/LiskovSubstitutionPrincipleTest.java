@@ -1,4 +1,4 @@
-package com.xavier.p2;
+package com.xavier.principle.p2;
 
 import com.xavier.MainTestCase;
 import com.xavier.principle.p2.gun.GatlinGun;

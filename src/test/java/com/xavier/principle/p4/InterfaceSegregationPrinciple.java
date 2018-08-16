@@ -1,4 +1,4 @@
-package com.xavier.p4;
+package com.xavier.principle.p4;
 
 import com.xavier.MainTestCase;
 import com.xavier.principle.p4.abs.Bird;
