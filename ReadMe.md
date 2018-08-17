@@ -23,12 +23,12 @@
             - c5 建造者模式 Builder Pattern
 - 单元测试
 - principle 设计原则测试
-        - p1 单一职责原则测试 SingleResponsibilityPrincipleTest
-        - p2 里氏替换原则测试 LiskovSubstitutionPrincipleTest
-        - p3 依赖倒置原则测试 DependenceInversionPrincipleTest
-        - p4 接口隔离原则测试 InterfaceSegregationPrincipleTest
-        - p5 最少知识原则测试/迪米特法则测试 LeastKnowledgePrincipleTest
-        - p6 开闭原则测试 OpenClosedPrincipleTest
+    - p1 单一职责原则测试 SingleResponsibilityPrincipleTest
+    - p2 里氏替换原则测试 LiskovSubstitutionPrincipleTest
+    - p3 依赖倒置原则测试 DependenceInversionPrincipleTest
+    - p4 接口隔离原则测试 InterfaceSegregationPrincipleTest
+    - p5 最少知识原则测试/迪米特法则测试 LeastKnowledgePrincipleTest
+    - p6 开闭原则测试 OpenClosedPrincipleTest
 - pattern 设计模式
     - creational
         - c1 单例模式测试 SingletonBasicPatternTest
