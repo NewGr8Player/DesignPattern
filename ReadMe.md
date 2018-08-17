@@ -29,10 +29,10 @@
         - p4 接口隔离原则测试 InterfaceSegregationPrincipleTest
         - p5 最少知识原则测试/迪米特法则测试 LeastKnowledgePrincipleTest
         - p6 开闭原则测试 OpenClosedPrincipleTest
-    - pattern 设计模式
-        - creational
-            - c1 单例模式测试 SingletonBasicPatternTest
-            - c2 工厂模式测试 FactoryPatternTest
-            - c3 抽象工厂模式测试 AbstractFactoryPatternTest
-            - c4 原型模式测试 PrototypePatternTest
-            - c5 建造者模式测试 BuilderPatternTest
+- pattern 设计模式
+    - creational
+        - c1 单例模式测试 SingletonBasicPatternTest
+        - c2 工厂模式测试 FactoryPatternTest
+        - c3 抽象工厂模式测试 AbstractFactoryPatternTest
+        - c4 原型模式测试 PrototypePatternTest
+        - c5 建造者模式测试 BuilderPatternTest
