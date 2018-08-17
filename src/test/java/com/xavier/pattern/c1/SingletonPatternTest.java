@@ -13,7 +13,7 @@ import org.junit.Test;
  *
  * @author NewGr8Player
  */
-public class SingletonTest extends MainTestCase {
+public class SingletonPatternTest extends MainTestCase {
 
 	/**
 	 * 懒汉式的线程安全
@@ -88,7 +88,7 @@ public class SingletonTest extends MainTestCase {
 	public void test04() {
 		Runnable r = () -> {
 			for (int i = 0; i < 5; i++) {
-				System.out.println((i + 1) + ":" + Singleton04.INSTANCE.hashCode());
+				System.out.println((i + 1) + ":" + Singleton04.INSTANCE.getInstance());
 			}
 		};
 		new Thread(r).start();

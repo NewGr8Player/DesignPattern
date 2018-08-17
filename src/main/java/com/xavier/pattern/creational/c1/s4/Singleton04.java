@@ -1,6 +1,5 @@
 package com.xavier.pattern.creational.c1.s4;
 
-import java.util.Date;
 
 /**
  * 枚举
@@ -11,11 +10,13 @@ public enum Singleton04 {
 
 	INSTANCE;
 
+	private int num = 0;
+
 	Singleton04() {
+		num++;
 	}
 
-	public void print() {
-		System.out.println();
+	public int getInstance() {
+		return num;
 	}
 }
-

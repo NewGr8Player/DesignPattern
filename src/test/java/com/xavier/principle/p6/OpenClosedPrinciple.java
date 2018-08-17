@@ -1,8 +1,6 @@
 package com.xavier.principle.p6;
 
 import com.xavier.MainTestCase;
-import com.xavier.principle.p6.DiscountItem;
-import com.xavier.principle.p6.Item;
 import org.junit.Test;
 
 import java.math.BigDecimal;
