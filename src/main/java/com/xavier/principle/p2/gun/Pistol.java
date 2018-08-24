@@ -13,6 +13,6 @@ import com.xavier.principle.p2.abs.AbstractGun;
 public class Pistol extends AbstractGun {
     @Override
     public void shoot() {
-        System.out.println("Bui...Bui...Bui...");
+        System.out.println("Biu...Biu...Biu...");
     }
 }

@@ -23,7 +23,7 @@ public class Snipper extends Rifle {
      */
     @Override
     public Number zoom(Number zoom) {
-        System.out.println("使用倍" + zoom + "镜瞄准");
+        System.out.println("覆盖:使用倍" + zoom + "镜瞄准");
         return new Integer(8);
     }
 }

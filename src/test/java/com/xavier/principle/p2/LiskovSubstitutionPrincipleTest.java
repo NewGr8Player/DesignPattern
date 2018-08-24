@@ -37,6 +37,7 @@ public class LiskovSubstitutionPrincipleTest extends MainTestCase {
         Snipper snipper = new Snipper();
         snipper.shoot();
         /* 尝试调用 */
-        snipper.zoom(new Integer(10));
+        Number number = snipper.zoom(new Integer(10));
+        System.out.println(number);
     }
 }
