@@ -1,5 +1,7 @@
 package com.xavier.principle.p6;
 
+import lombok.NoArgsConstructor;
+
 import java.math.BigDecimal;
 
 /**
@@ -7,6 +9,7 @@ import java.math.BigDecimal;
  *
  * @NewGr8Player
  */
+@NoArgsConstructor
 public class DiscountItem extends Item {
 
 	/**
@@ -18,10 +21,6 @@ public class DiscountItem extends Item {
 	 * 85折
 	 */
 	public static final BigDecimal DC_85 = new BigDecimal("0.85");
-
-	public DiscountItem() {
-		super();
-	}
 
 	public DiscountItem(BigDecimal price) {
 		super(price);
