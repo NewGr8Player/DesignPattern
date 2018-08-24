@@ -13,7 +13,6 @@ public enum Singleton04 {
 	private int num = 0;
 
 	Singleton04() {
-		num++;
 	}
 
 	public int getInstance() {
