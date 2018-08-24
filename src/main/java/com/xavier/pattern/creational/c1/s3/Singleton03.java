@@ -1,7 +1,7 @@
 package com.xavier.pattern.creational.c1.s3;
 
 /**
- * 饿汉式
+ * 静态内部类
  *
  * @author NewGr8Player
  */
