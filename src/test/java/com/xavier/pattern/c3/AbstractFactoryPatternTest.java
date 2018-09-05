@@ -6,25 +6,29 @@ import com.xavier.pattern.creational.c3.impl.BusFactory;
 import com.xavier.pattern.creational.c3.impl.CarFactory;
 import org.junit.Test;
 
-
+/**
+ * 抽象工厂类测试
+ *
+ * @author NewGr8Player
+ */
 public class AbstractFactoryPatternTest extends MainTestCase {
 
-    @Test
-    public void test() {
+	@Test
+	public void test() {
 
-        CarFactory carFactory = new CarFactory();
+		CarFactory carFactory = new CarFactory();
 
-        Vehicle car = carFactory.createVehicle();
+		Vehicle car = carFactory.createVehicle();
 
-        System.out.println(car);
-    }
+		System.out.println(car);
+	}
 
-    @Test
-    public void test1() {
-        BusFactory busFactory = new BusFactory();
+	@Test
+	public void test1() {
+		BusFactory busFactory = new BusFactory();
 
-        Vehicle bus = busFactory.createVehicle();
+		Vehicle bus = busFactory.createVehicle();
 
-        System.out.println(bus);
-    }
+		System.out.println(bus);
+	}
 }
