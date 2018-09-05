@@ -1,4 +1,4 @@
-package com.xavier.principle.p1.service;
+package com.xavier.principle.p1.abs;
 
 /**
  * 通信连接接口

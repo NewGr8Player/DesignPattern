@@ -1,15 +1,15 @@
 package com.xavier.principle.p1;
 
-import com.xavier.principle.p1.service.ConnectionManager;
-import com.xavier.principle.p1.service.DataTransfer;
+import com.xavier.principle.p1.abs.ConnectionManager;
+import com.xavier.principle.p1.abs.DataTransfer;
 
 /**
  * 电话类
  * <br />
  * 实现了
  * <ul>
- * <li>通信连接接口 {@link com.xavier.principle.p1.service.ConnectionManager}</li>
- * <li>数据传输接口 {@link com.xavier.principle.p1.service.DataTransfer}</li>
+ * <li>通信连接接口 {@link com.xavier.principle.p1.abs.ConnectionManager}</li>
+ * <li>数据传输接口 {@link com.xavier.principle.p1.abs.DataTransfer}</li>
  * </ul>
  *
  * @author NewGr8Player
