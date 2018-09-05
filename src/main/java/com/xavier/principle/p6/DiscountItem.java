@@ -15,12 +15,12 @@ public class DiscountItem extends Item {
 	/**
 	 * 折扣线
 	 */
-	public static final BigDecimal DCL = new BigDecimal("100.00");
+	private static final BigDecimal DCL = new BigDecimal("100.00");
 
 	/**
 	 * 85折
 	 */
-	public static final BigDecimal DC_85 = new BigDecimal("0.85");
+	private static final BigDecimal DC_85 = new BigDecimal("0.85");
 
 	public DiscountItem(BigDecimal price) {
 		super(price);
