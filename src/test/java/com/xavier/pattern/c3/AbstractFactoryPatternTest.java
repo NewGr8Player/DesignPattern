@@ -1,9 +1,10 @@
 package com.xavier.pattern.c3;
 
 import com.xavier.MainTestCase;
-import com.xavier.pattern.creational.c3.Vehicle;
-import com.xavier.pattern.creational.c3.impl.BusFactory;
-import com.xavier.pattern.creational.c3.impl.CarFactory;
+import com.xavier.pattern.creational.c3.abs.Breakfast;
+import com.xavier.pattern.creational.c3.abs.BreakfastFactory;
+import com.xavier.pattern.creational.c3.impl.AdvBreakfastFactory;
+import com.xavier.pattern.creational.c3.impl.LowBreakfastFactory;
 import org.junit.Test;
 
 /**
@@ -14,21 +15,15 @@ import org.junit.Test;
 public class AbstractFactoryPatternTest extends MainTestCase {
 
 	@Test
-	public void test() {
+	public void test(){
+		// 进入高级早餐店买一个包子
+		BreakfastFactory breakfastFactory = new AdvBreakfastFactory();
+		Breakfast breakfast = breakfastFactory.sellBuns();
+		breakfast.sell();
 
-		CarFactory carFactory = new CarFactory();
-
-		Vehicle car = carFactory.createVehicle();
-
-		System.out.println(car);
-	}
-
-	@Test
-	public void test1() {
-		BusFactory busFactory = new BusFactory();
-
-		Vehicle bus = busFactory.createVehicle();
-
-		System.out.println(bus);
+		// 去低级早餐店买一包豆浆
+		BreakfastFactory breakfastFactory2 = new LowBreakfastFactory();
+		Breakfast breakfast2 = breakfastFactory2.sellSoyMilk();
+		breakfast2.sell();
 	}
 }
