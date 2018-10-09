@@ -1,4 +1,4 @@
-package com.xavier.pattern.c4;
+package com.xavier.pattern.creational.c4;
 
 import com.xavier.MainTestCase;
 import com.xavier.pattern.creational.c4.MailTemplate;

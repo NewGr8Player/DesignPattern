@@ -1,4 +1,4 @@
-package com.xavier.pattern.c3;
+package com.xavier.pattern.creational.c3;
 
 import com.xavier.MainTestCase;
 import com.xavier.pattern.creational.c3.abs.Breakfast;

@@ -1,4 +1,4 @@
-package com.xavier.pattern.c1;
+package com.xavier.pattern.creational.c1;
 
 import com.xavier.MainTestCase;
 import com.xavier.pattern.creational.c1.s1.Singleton01;

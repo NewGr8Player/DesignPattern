@@ -11,7 +11,7 @@
         - p5 最少知识原则/迪米特法则 Least Knowledge Principle,LKP / Law of Demeter,LoD
         - p6 开闭原则 Open Closed Principle,OCP
     - pattern 设计模式
-        - creational
+        - creational创建型模式
             - c1 单例模式 The SingletonBasic Pattern
                 - s1 懒汉式
                 - s2 饿汉式
@@ -21,6 +21,14 @@
             - c3 抽象工厂模式 The Abstract Factory Pattern
             - c4 原型模式 The Prototype Pattern
             - c5 建造者模式 Builder Pattern
+        - structural 结构型模式
+            - s1 适配器模式 The Adapter Pattern
+                - a1 类适配器
+                - a2 对象适配器
+                - a3 接口适配器
+            - s2 组合模式 The Composite Pattern
+            - s3 装饰模式 The Decorator Pattern
+            - s4 外观模式 The Facade Pattern
 - 单元测试
     - principle 设计原则测试
         - p1 单一职责原则测试 SingleResponsibilityPrincipleTest
@@ -36,3 +44,8 @@
             - c3 抽象工厂模式测试 AbstractFactoryPatternTest
             - c4 原型模式测试 PrototypePatternTest
             - c5 建造者模式测试 BuilderPatternTest
+        - structural 结构型模式
+            - s1 适配器模式 AdapterPatternTest
+            - s2 组合模式 CompositePatternTest
+            - s3 装饰模式 DecoratorPatternTest
+            - s4 外观模式 FacadePatternTest

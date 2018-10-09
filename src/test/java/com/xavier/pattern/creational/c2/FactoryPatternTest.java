@@ -1,4 +1,4 @@
-package com.xavier.pattern.c2;
+package com.xavier.pattern.creational.c2;
 
 import com.xavier.MainTestCase;
 import com.xavier.pattern.creational.c2.abs.AbstractHumanFactory;

@@ -1,4 +1,4 @@
-package com.xavier.pattern.c5;
+package com.xavier.pattern.creational.c5;
 
 import com.xavier.MainTestCase;
 import com.xavier.pattern.creational.c5.w1.Car;
@@ -15,7 +15,8 @@ public class BuilderPattertTest extends MainTestCase {
 
         CarBuilder builder = new CarBuilderImpl();
 
-        Car car = builder.setWheels(4)
+        Car car = builder
+                .setWheels(4)
                 .setColor("红色")
                 .build();
 
