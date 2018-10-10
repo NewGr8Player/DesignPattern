@@ -29,6 +29,12 @@
             - s2 组合模式 The Composite Pattern
             - s3 装饰模式 The Decorator Pattern
             - s4 外观模式 The Facade Pattern
+            - s5 代理模式 The Proxy Pattern
+                - p1 静态代理
+                - p2 JDK代理
+                - p3 CGLIB代理
+            - s6 桥接模式 The Bridge Pattern
+            - s7 享元模式 (The Flyweight Pattern)
 - 单元测试
     - principle 设计原则测试
         - p1 单一职责原则测试 SingleResponsibilityPrincipleTest
@@ -49,3 +55,6 @@
             - s2 组合模式 CompositePatternTest
             - s3 装饰模式 DecoratorPatternTest
             - s4 外观模式 FacadePatternTest
+            - s5 代理模式 ProxyPatternTest
+            - s6 桥接模式 BridgePatternTest
+            - s7 享元模式 FlyweightPatternTest

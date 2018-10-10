@@ -8,20 +8,6 @@
     <artifactId>depa</artifactId>
     <version>0.0.1.RC</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
     <properties>
         <!-- Base config -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,5 +15,30 @@
         <java.version>1.8</java.version>
         <!-- Dependencies version -->
         <lombok.version>1.18.2</lombok.version>
+        <cglib.version>3.2.8</cglib.version>
+        <junit.version>4.10</junit.version>
     </properties>
+
+    <dependencies>
+        <!-- Proxy:CGLib -->
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>${cglib.version}</version>
+        </dependency>
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <!-- Test:Junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 </project>
