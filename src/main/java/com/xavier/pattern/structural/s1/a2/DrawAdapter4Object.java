@@ -4,7 +4,13 @@ import com.xavier.pattern.structural.s1.a1.DrawRectangle;
 import com.xavier.pattern.structural.s1.a1.IDrawCircle;
 
 /**
- * 对象适配器： 使用对象组合的方式，是动态组合的方式。 * 既能画方又能画圆 * @author stone * DrawAdapter是适配器，DrawRectangle属于adapter,是被适配者，适配器将被适配者和适配目标（DrawCircle）进行适配 *
+ * 对象适配器： 使用对象组合的方式，是动态组合的方式。
+ * 既能画方又能画圆
+ * DrawAdapter是适配器，
+ * DrawRectangle属于adapter,是被适配者，
+ * 配器将被适配者和适配目标（DrawCircle）进行适配
+ *
+ * @author NewGr8Player
  */
 public class DrawAdapter4Object implements IDrawCircle {
 
