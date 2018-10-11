@@ -10,6 +10,7 @@ import com.xavier.pattern.structural.s3.impl.Rectangle;
  * @author NewGr8Player
  */
 public class ShapeMaker {
+
 	private Shape circle;
 	private Shape rectangle;
 
