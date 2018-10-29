@@ -8,7 +8,7 @@ import org.junit.runners.JUnit4;
 public class MainTestCase {
 
     @Test
-    public void test(){
+    public void test() throws InterruptedException {
         System.out.println("a");
     }
 }
