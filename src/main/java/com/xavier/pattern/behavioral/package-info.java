@@ -17,5 +17,3 @@
  * @author NewGr8Player
  */
 package com.xavier.pattern.behavioral;
-
-
