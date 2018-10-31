@@ -35,6 +35,18 @@
                 - p3 CGLIB代理
             - s6 桥接模式 The Bridge Pattern
             - s7 享元模式 (The Flyweight Pattern)
+        -  behavioral 行为型模式
+            - 责任链式 Chain of Responsibility Pattern
+            - 命令模式 The Command Pattern
+            - 解释器模式 The Interpreter Pattern
+            - 迭代器模式 The Iterator Pattern
+            - 中介者模式 The Mediator Pattern
+            - 观察者模式 The Observer Pattern
+            - 状态模式 The State Pattern
+            - 策略模式 The Strategy Pattern
+            - 模版模式 The Template Pattern
+            - 访问者模式 The Visitor Pattern
+            - 备忘录模式 The Memento Pattern
 - 单元测试
     - principle 设计原则测试
         - p1 单一职责原则测试 SingleResponsibilityPrincipleTest
@@ -51,10 +63,22 @@
             - c4 原型模式测试 PrototypePatternTest
             - c5 建造者模式测试 BuilderPatternTest
         - structural 结构型模式
-            - s1 适配器模式 AdapterPatternTest
-            - s2 组合模式 CompositePatternTest
-            - s3 装饰模式 DecoratorPatternTest
-            - s4 外观模式 FacadePatternTest
-            - s5 代理模式 ProxyPatternTest
-            - s6 桥接模式 BridgePatternTest
-            - s7 享元模式 FlyweightPatternTest
+            - s1 适配器模式测试 AdapterPatternTest
+            - s2 组合模式测试 CompositePatternTest
+            - s3 装饰模式测试 DecoratorPatternTest
+            - s4 外观模式测试 FacadePatternTest
+            - s5 代理模式测试 ProxyPatternTest
+            - s6 桥接模式测试 BridgePatternTest
+            - s7 享元模式测试 FlyweightPatternTest
+        -  behavioral 行为型模式
+            - 责任链式测试 ChainOfResponsibilityPatternTest
+            - 命令模式测试 CommandPatternTest
+            - 解释器模式测试 InterpreterPatternTest
+            - 迭代器模式测试 IteratorPatternTest
+            - 中介者模式测试 MediatorPatternTest
+            - 观察者模式测试 ObserverPatternTest
+            - 状态模式测试 StatePatternTest
+            - 策略模式测试 StrategyPatternTest
+            - 模版模式测试 TemplatePatternTest
+            - 访问者模式测试 VisitorPatternTest
+            - 备忘录模式测试 MementoPatternTest

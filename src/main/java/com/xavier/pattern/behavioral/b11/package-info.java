@@ -1,7 +1,7 @@
 /**
  * 11
  * 备忘录模式
- * Mememto Pattern
+ * Memento Pattern
  *
  * @author NewGr8Player
  */

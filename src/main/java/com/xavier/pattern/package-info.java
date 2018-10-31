@@ -36,7 +36,7 @@
  * <li>策略模式(The Strategy Pattern)</li>
  * <li>模版模式(The Template Pattern)</li>
  * <li>访问者模式(The Visitor Pattern)</li>
- * <li>备忘录模式(The Mememto Pattern)</li>
+ * <li>备忘录模式(The Memento Pattern)</li>
  * </ol>
  * </li>
  * </ul>
